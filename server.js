@@ -13,7 +13,7 @@ app.post("/chat", async (req, res) => {
     headers: {
       "Authorization": `Bearer ${process.env.OPENROUTER_KEY}`,
       "Content-Type": "application/json",
-      "HTTP-Referer": "https://yourgithubpage.com",
+      "HTTP-Referer": ""HTTP-Referer": "https://sundar633.github.io"",
       "X-Title": "Cizoo"
     },
     body: JSON.stringify(req.body)
